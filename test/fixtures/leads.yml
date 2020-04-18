@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: leads
+#
+#  id         :bigint           not null, primary key
+#  first_name :string
+#  last_name  :string
+#  email      :string
+#  day        :integer
+#  month      :integer
+#  phone      :integer
+#  refer      :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  day: 1
+  month: 1
+  phone: 1
+  refer: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  day: 1
+  month: 1
+  phone: 1
+  refer: 1
